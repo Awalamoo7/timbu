@@ -34,10 +34,20 @@ button {
 
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100vw;
+        height: 35vw;
+        position: relative;
+        left: 0px;
+        
+    }
+}
 
 @media screen and (max-width: 414px) {
     .container {
         width: 100vw;
+        height: 50vw;
         position: relative;
         left: 0px;
     }
@@ -45,7 +55,7 @@ button {
         width: 80vw;
     }
     button {
-        margin-top: 40px;
+        margin-top: 12px;
         width: 35%;
 
     }
@@ -58,3 +68,4 @@ button {
         font-weight: 400;
     }
 }
+
