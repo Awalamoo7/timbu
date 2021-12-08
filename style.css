@@ -1,29 +1,28 @@
-.button-type {
+button {
     align-items: center;
     background-color: #00AEFF;
-    border-radius: 2px;
-    display: flex;
-    flex-direction: row;
+    display: block;
     font-size: 14px;
     font-family: 'Overpass', sans-serif;
     height: 38px;
     width: 193px;
     justify-content: center;
-    padding: 12px 16px;
     position: relative;
     top: 15px;
     left: 35px;
+    border-width: 0px;
 }
 
-.center-text {
+.box {
+    position: relative;
     font-size: 16px;
     margin-left: 35px;
     margin-top: 40px;
     font-family: 'Overpass', sans-serif;
+    background-color: #FFFFFF;
 }
 
-.center {
-    background-color: #FFFFFF;
+.container {
     position: relative;
     left: 284px;
     right: 284px;
@@ -35,13 +34,28 @@
 
 }
 
-#head {
-    font-weight: 5000;
-}
+h1 {
+    
 }
 
-@media (max-width: 100px) {
-    body{
-width: 40vmax;
-}
+@media screen and (max-width: 414px) {
+    .container {
+        width: 100vw;
+    }
+    .box {
+        width: 80vw;
+    }
+    button {
+        margin-top: 40px;
+        width: 35%;
+
+    }
+    h1 {
+        font-size: 100%;
+        font-weight: 700;
+    }
+    p{
+        font-size: 75%;
+        font-weight: 400;
+    }
 }
