@@ -34,6 +34,13 @@ button {
 
 }
 
+@media screen and (max-width: 1024px) {
+    .container {
+        position: relative;
+        left: 84px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
         width: 100vw;
@@ -44,6 +51,11 @@ button {
     }
 }
 
+@media screen and (max-width: 540px) {
+    .container {
+        height: 50vw;
+    }
+}
 @media screen and (max-width: 414px) {
     .container {
         width: 100vw;
